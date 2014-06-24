@@ -4,7 +4,7 @@
   "description": "Browserify transform that emits a descriptive syntax error on invalid javascript",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/index.js"
+    "test": "tape test/*.js"
   },
   "dependencies": {
     "syntax-error": "~1.1.0"
