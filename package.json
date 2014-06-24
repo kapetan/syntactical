@@ -2,6 +2,7 @@
   "name": "syntactical",
   "version": "0.0.1",
   "description": "Browserify transform that emits a descriptive syntax error on invalid javascript",
+  "repository": "git@github.com:kapetan/syntactical.git",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/index.js"
