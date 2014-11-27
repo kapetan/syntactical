@@ -9,9 +9,6 @@ var syntactical = require('../index');
 var VALID_PARTS = [new Buffer('var a'), new Buffer('=1;')];
 var VALID_BUFFER = Buffer.concat(VALID_PARTS);
 
-var INVALID_PARTS = VALID_PARTS.concat([new Buffer(',')]);
-var INVALID_BUFFER = Buffer.concat(INVALID_PARTS);
-
 var fixtures = function(name) {
 	return path.join(__dirname, 'fixtures', name);
 };
