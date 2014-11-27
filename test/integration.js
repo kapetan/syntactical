@@ -62,7 +62,7 @@ test('dummy transform invalid js file', function(t) {
 
 	b.bundle()
 		.on('error', function(err) {
-			t.equal(err.message, 'dummy_error');
+			t.ok(/^dummy_error/.test(err.message));
 		})
 		.pipe(concat());
 });

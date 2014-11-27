@@ -8,11 +8,11 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "syntax-error": "~1.1.0"
+    "syntax-error": "~1.1.2"
   },
   "devDependencies": {
-    "tape": "~2.13.3",
+    "tape": "~3.0.3",
     "concat-stream": "~1.4.6",
-    "browserify": "~4.1.11"
+    "browserify": "~6.3.3"
   }
 }
