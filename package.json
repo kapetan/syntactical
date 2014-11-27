@@ -14,5 +14,12 @@
     "tape": "~3.0.3",
     "concat-stream": "~1.4.6",
     "browserify": "~6.3.3"
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+    "browserify",
+    "transform",
+    "syntax",
+    "error"
+  ]
 }
